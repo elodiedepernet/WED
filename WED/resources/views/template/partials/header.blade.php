@@ -16,14 +16,8 @@ Description : Header de mon Template
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
                         <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a href="index.html">Blog</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                        {{menu('main', '/template/partials/menu')}}
+
                     </div>
                     <!-- Mobile Menu -->
                     <div class="col-12">

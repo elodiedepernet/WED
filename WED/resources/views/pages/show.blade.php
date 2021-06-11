@@ -3,9 +3,6 @@
   Desciption : Page de Blog
   Variables disponibles :
 --}}
-<h1>{{ $page->titre }}</h1>
-<div>{{ $page->texte }}</div>
-<div>{!! html_entity_decode($page->texte)!!}</div>
 
 @extends ('template.app')
 @section('contenu')
